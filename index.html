@@ -5,139 +5,220 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Naina Chauhan - Portfolio</title>
   <link rel="stylesheet" href="index.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+  <!-- SVG Background Elements -->
+  <svg class="bg-svg bg-svg-1" width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(300,300)">
+      <path d="M144.9,-196.7C188.6,-160.5,224.5,-113.1,239.3,-58.9C254,-4.7,247.5,56.3,218.5,103.1C189.4,150,137.9,182.6,82.4,205.7C26.9,228.8,-32.6,242.4,-91.8,230.9C-151,219.4,-209.9,182.9,-235.4,130.6C-261,78.2,-253.2,9.9,-230.4,-46.4C-207.6,-102.6,-169.8,-146.7,-126.5,-183C-83.1,-219.2,-34.2,-247.7,13.3,-264.9C60.8,-282.2,101.2,-232.9,144.9,-196.7Z" fill="#7b68ee" />
+    </g>
+  </svg>
+  
+  <svg class="bg-svg bg-svg-2" width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(300,300)">
+      <path d="M169.7,-198.5C214.9,-159.4,244.1,-97.2,256.3,-30.5C268.5,36.3,263.8,107.5,229.9,164.3C196.1,221.1,133.1,263.4,63.1,282.8C-6.9,302.3,-84,299,-138.8,266C-193.6,233,-226.2,170.3,-247.9,105.2C-269.6,40.2,-280.4,-27.3,-261.2,-84.8C-242,-142.2,-192.7,-189.6,-139.7,-224.7C-86.8,-259.7,-29.3,-282.4,21.1,-306.5C71.4,-330.6,124.5,-237.7,169.7,-198.5Z" fill="#7b68ee" />
+    </g>
+  </svg>
 
-<header>
-  <h1>Naina Chauhan</h1>
-  <p>🎓 BTech Student | Aspiring Software Developer | Tech Enthusiast</p>
-  <img src="img.jpeg" alt="Naina Chauhan" height="100" width="100">
-</header>
+  <div class="container">
+    <header>
+      <div class="profile-container">
+        <img src="img.jpeg" alt="Naina Chauhan" class="profile-img">
+        <h1>Naina Chauhan</h1>
+        <p>🎓 BTech Student | Aspiring Software Developer | Tech Enthusiast</p>
+      </div>
+    </header>
 
-<section>
-  <h2>About Me</h2>
-  <p>
-    I am a computer science student passionate about web development and problem-solving.
-    I love working on creative projects, exploring new technologies, and continuously upskilling.
-    My dream is to build meaningful software that makes a difference.
-  </p>
-</section>
+    <nav>
+      <div class="nav-container">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#activities" class="nav-link">Activities</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+    </nav>
 
-<section>
-  <h2>Education</h2>
-  <ul>
-    <li><strong>10th (CBSE):</strong> 73.2%</li>
-    <li><strong>12th (CBSE):</strong> 72%</li>
-    <li><strong>B.Tech (3rd Year):</strong> CGPA – 7.40</li>
-  </ul>
-</section>
+    <section id="about">
+      <h2><i class="fas fa-user"></i> About Me</h2>
+      <p>
+        I am a computer science student passionate about web development and problem-solving.
+        I love working on creative projects, exploring new technologies, and continuously upskilling.
+        My dream is to build meaningful software that makes a difference.
+      </p>
+    </section>
 
-<section>
-  <h2>Skills</h2>
-  <ul>
-    <li>HTML, CSS, JavaScript, React.js, Tailwind CSS, Bootstrap</li>
-    <li>Java, SQL, MongoDB, MERN Stack</li>
-    <li>GitHub, API Integration, Postman</li>
-    <li>Communication Skills, Teamwork, Consistency</li>
-  </ul>
-</section>
+    <section id="education">
+      <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+      <ul>
+        <li><strong>10th (CBSE):</strong> 73.2%</li>
+        <li><strong>12th (CBSE):</strong> 72%</li>
+        <li><strong>B.Tech (3rd Year):</strong> CGPA – 7.40</li>
+      </ul>
+    </section>
 
-<section>
-  <h2>Projects</h2>
-  <ul>
-    <li><strong>Portfolio Website:</strong> Showcasing skills and experience using HTML & CSS.</li>
-    <li><strong>Todo App:</strong> Full-stack app for task management using MERN stack.</li>
-    <li><strong>Weather App:</strong> JavaScript app using public weather API.</li>
-  </ul>
-</section>
+    <section id="skills">
+      <h2><i class="fas fa-code"></i> Skills</h2>
+      <div class="skills-container">
+        <span class="skill-tag">HTML</span>
+        <span class="skill-tag">CSS</span>
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">React.js</span>
+        <span class="skill-tag">Tailwind CSS</span>
+        <span class="skill-tag">Bootstrap</span>
+        <span class="skill-tag">Java</span>
+        <span class="skill-tag">SQL</span>
+        <span class="skill-tag">MongoDB</span>
+        <span class="skill-tag">MERN Stack</span>
+        <span class="skill-tag">GitHub</span>
+        <span class="skill-tag">API Integration</span>
+        <span class="skill-tag">Postman</span>
+        <span class="skill-tag">Communication</span>
+        <span class="skill-tag">Teamwork</span>
+      </div>
+    </section>
 
-<section>
-  <h2>Certifications</h2>
-  <ul>
-    <li>Python for Beginners – Udemy</li>
-    <li>Prompt Engineering – Let’s Upgrade</li>
-    <li>TCS iON Career Edge – Young Professional</li>
-    <li>GitHub Actions for CI/CD – Webinar</li>
-    <li>Career Essentials in Software Development – Microsoft & LinkedIn</li>
-    <li>Postman API Student Expert</li>
-  </ul>
-</section>
+    <section id="projects">
+      <h2><i class="fas fa-project-diagram"></i> Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>Showcasing skills and experience using HTML & CSS. Responsive design with modern UI elements.</p>
+        </div>
+        <div class="project-card">
+          <h3>Todo App</h3>
+          <p>Full-stack application for task management using MERN stack. Features include user authentication and task prioritization.</p>
+        </div>
+        <div class="project-card">
+          <h3>Weather App</h3>
+          <p>JavaScript app using public weather API. Provides real-time weather updates with elegant user interface.</p>
+        </div>
+      </div>
+    </section>
 
-<section>
-  <h2>Achievements</h2>
-  <ul>
-    <li>2nd place in writing competition</li>
-    <li>Winner of school-level badminton tournament</li>
-  </ul>
-</section>
+    <section id="certifications">
+      <h2><i class="fas fa-certificate"></i> Certifications</h2>
+      <ul>
+        <li><strong>Python for Beginners – Udemy</strong></li>
+        <li><strong>Prompt Engineering – Let's Upgrade</strong></li>
+        <li><strong>TCS iON Career Edge – Young Professional</strong></li>
+        <li><strong>GitHub Actions for CI/CD – Webinar</strong></li>
+        <li><strong>Career Essentials in Software Development – Microsoft & LinkedIn</strong></li>
+        <li><strong>Postman API Student Expert</strong></li>
+      </ul>
+    </section>
 
-<section>
-  <h2>Hobbies</h2>
-  <ul>
-    <li>Dancing</li>
-    <li>Writing personal thoughts in diary</li>
-    <li>Teamwork & collaboration</li>
-    <li>Practicing consistency</li>
-  </ul>
-</section>
+    <section id="achievements">
+      <h2><i class="fas fa-trophy"></i> Achievements</h2>
+      <ul>
+        <li>2nd place in writing competition</li>
+        <li>Winner of school-level badminton tournament</li>
+      </ul>
+    </section>
 
-<section>
-  <h2>Languages Known</h2>
-  <ul>
-    <li>English – Fluent</li>
-    <li>Hindi – Fluent</li>
-  </ul>
-</section>
+    <section id="hobbies">
+      <h2><i class="fas fa-heart"></i> Hobbies</h2>
+      <ul>
+        <li>Dancing</li>
+        <li>Writing personal thoughts in diary</li>
+        <li>Teamwork & collaboration</li>
+        <li>Practicing consistency</li>
+      </ul>
+    </section>
 
-<section>
-  <h2>Resume</h2>
-  <p>
-    Download my resume: 
-    <a href="Naina_Chauhan_Resume.pdf" download>Click to download</a>
-  </p>
-</section>
+    <section id="languages">
+      <h2><i class="fas fa-language"></i> Languages Known</h2>
+      <ul>
+        <li>English – Fluent</li>
+        <li>Hindi – Fluent</li>
+      </ul>
+    </section>
 
-<section>
-  <h2>All Activity</h2>
+    <section id="resume">
+      <h2><i class="fas fa-file-alt"></i> Resume</h2>
+      <p>
+        Download my detailed resume to learn more about my experience and qualifications:
+      </p>
+      <br>
+      <a href="Naina_Chauhan_Resume.pdf" download class="download-btn">
+        <i class="fas fa-download"></i> Download Resume
+      </a>
+    </section>
 
-  <div class="activity">
-    <h3>🎉 Python for Beginners – Udemy</h3>
-    <p>Learned Python basics including variables, loops, functions, and OOP. Improved coding logic and problem-solving.</p>
+    <section id="activities">
+      <h2><i class="fas fa-history"></i> All Activity</h2>
+
+      <div class="activity">
+        <h3>🎉 Python for Beginners – Udemy</h3>
+        <p>Learned Python basics including variables, loops, functions, and OOP. Improved coding logic and problem-solving.</p>
+      </div>
+
+      <div class="activity">
+        <h3>🧠 Prompt Engineering Bootcamp – Let's Upgrade</h3>
+        <p>Explored prompt crafting for AI, context handling, and real-world NLP tasks. Boosted understanding of AI capabilities.</p>
+      </div>
+
+      <div class="activity">
+        <h3>💼 TCS iON Career Edge – Young Professional</h3>
+        <p>Mastered communication skills, resume writing, business etiquette, and fundamentals of IT & AI.</p>
+      </div>
+
+      <div class="activity">
+        <h3>🛠️ Webinar – GitHub CI/CD with GitHub Actions</h3>
+        <p>Learned how to use GitHub for version control and automate deployments with GitHub Actions.</p>
+      </div>
+
+      <div class="activity">
+        <h3>📚 Career Essentials – Microsoft & LinkedIn</h3>
+        <p>Completed structured training on software engineering principles, agile methodology, and team collaboration.</p>
+      </div>
+
+      <div class="activity">
+        <h3>🚀 Postman API Fundamentals Certification</h3>
+        <p>Earned certification in API testing and documentation using Postman. Built a strong API development foundation.</p>
+      </div>
+    </section>
   </div>
 
-  <div class="activity">
-    <h3>🧠 Prompt Engineering Bootcamp – Let's Upgrade</h3>
-    <p>Explored prompt crafting for AI, context handling, and real-world NLP tasks. Boosted understanding of AI capabilities.</p>
-  </div>
-
-  <div class="activity">
-    <h3>💼 TCS iON Career Edge – Young Professional</h3>
-    <p>Mastered communication skills, resume writing, business etiquette, and fundamentals of IT & AI.</p>
-  </div>
-
-  <div class="activity">
-    <h3>🛠️ Webinar – GitHub CI/CD with GitHub Actions</h3>
-    <p>Learned how to use GitHub for version control and automate deployments with GitHub Actions.</p>
-  </div>
-
-  <div class="activity">
-    <h3>📚 Career Essentials – Microsoft & LinkedIn</h3>
-    <p>Completed structured training on software engineering principles, agile methodology, and team collaboration.</p>
-  </div>
-
-  <div class="activity">
-    <h3>🚀 Postman API Fundamentals Certification</h3>
-    <p>Earned certification in API testing and documentation using Postman. Built a strong API development foundation.</p>
-  </div>
-</section>
-
-<footer>
-  <h2>Contact</h2>
-  <p><strong>Phone:</strong> 6207240190</p>
-  <p><strong>Email:</strong> <a href="mailto:nainachauhan027@gmail.com">nainachauhan027@gmail.com</a></p>
-  <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/naina-chauhan-2ab9702b6/">linkedin.com/in/naina-chauhan</a></p>
-  <p>Made with ❤️ by Naina Chauhan</p>
-</footer>
+  <footer id="contact">
+    <div class="container">
+      <h2><i class="fas fa-envelope"></i> Contact</h2>
+      
+      <div class="contact-grid">
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <h3>Phone</h3>
+          <p>6207240190</p>
+        </div>
+        
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <h3>Email</h3>
+          <p><a href="mailto:nainachauhan027@gmail.com">nainachauhan027@gmail.com</a></p>
+        </div>
+        
+        <div class="contact-item">
+          <i class="fab fa-linkedin"></i>
+          <h3>LinkedIn</h3>
+          <p><a href="https://www.linkedin.com/in/naina-chauhan-2ab9702b6/">linkedin.com/in/naina-chauhan</a></p>
+        </div>
+      </div>
+      
+      <div class="social-links">
+        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+      </div>
+      
+      <p class="footer-note">Made with <i class="fas fa-heart" style="color:var(--accent);"></i> by Naina Chauhan</p>
+    </div>
+  </footer>
 
 </body>
 </html>
